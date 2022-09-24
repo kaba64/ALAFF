@@ -1,1 +1,1 @@
-Codes for ALAFF codes in C.
+Codes for ALAFF in C.
