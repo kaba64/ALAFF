@@ -20,7 +20,7 @@ int main( int argc, char *argv[] ) {
   scanf("%d%d",&m_A,&n_A);
   FLA_Init();
   FLA_Obj_create(FLA_DOUBLE,m_A,n_A,0,0,&A);
-  FLA_Obj_create(FLA_DOUBLE,m_A,1,0,0,&t);
+  FLA_Obj_create(FLA_DOUBLE,n_A,1,0,0,&t);
   matrix_generate(A,'F','A');
 #ifdef PRINT_DATA
   FLA_Obj_show( " A = [ ", A, "%le", " ];" );
