@@ -8,6 +8,7 @@
 #include "HQR.h"
 #include "FormQ.h"
 
+
 #define PRINT_DATA
 // Declaration of local prototypes.
 void matrix_generate( FLA_Obj A, char type,char name);
